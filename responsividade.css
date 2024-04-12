@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 100%;
+    max-width: 20vw;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: Courier, monospace;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+@media screen and (max-width: 768px){
+    .box{
+        width: 100%;
+    }
+}
+
+.box:hover{
+    /* 23uz p&rd0@ */
+    transform:scale(1.1);
+    box-shadow: 15px 15px 0 rgba(0, 0, 0, 1);
+    border: 5px solid #fff;
+    border-radius: 30px;
+}
