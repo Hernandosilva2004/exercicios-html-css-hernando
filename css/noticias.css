@@ -1,0 +1,46 @@
+:root{
+    /* fontes */
+    --f-arial: Arial, 'sans-serif';
+
+    /* cor */
+    --cor-light: #f3f3f3;
+    --cor-black: #333;
+    --cor-light-black: #444;
+    --cor-gray: #666;
+
+    /* sombra */
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body{
+    font-family: var(--f-arial);
+    background-color: var(--cor-light);
+}
+
+.title{
+    color: var(--cor-black);
+    font-size: 24px;
+}
+.author{
+    color: var(--cor-gray);
+    font-size: 14px;
+}
+.content{
+    color: var(--cor-light-black);
+    font-size: 16px;
+}
+img{
+    width: 100%;
+}
+.container{
+    margin: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    padding: 15px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
