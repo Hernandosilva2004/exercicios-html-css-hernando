@@ -1,0 +1,30 @@
+:root{
+    --cinza: #f2f2f2;
+    --f-size-20: 20px;
+    --font-Arial: Arial, sans-serif;
+    --border: 1px solid #000;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #000;
+    color: #fff;
+}
+
+th, td{
+    padding: 2vh;
+}
+td{
+    border: var(--border);
+    text-align: center;
+}
+.par{
+    background-color: var(--cinza);
+}
+.text{
+    font-size: var(--f-size-20);
+    font-family: var(--font-Arial);
+}
