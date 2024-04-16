@@ -21,7 +21,7 @@ td{
     border: var(--border);
     text-align: center;
 }
-.par{
+table tbody tr:nth-child(2n){
     background-color: var(--cinza);
 }
 .text{
